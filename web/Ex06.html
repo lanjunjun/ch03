@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Front Page of Ex06</title>
+</head>
+<body>
+    <form method="post" action="servlet/Ex06">
+        <p align="center" style="font-size: 5ch">
+            <b>Front Page of Ex06</b>
+        </p>
+        <p></p>
+        <p align="center">
+            输入数据：<br/>
+            <textarea name="textareadate"></textarea><br/>
+            输入数据：<br/>
+            <input type="text" name="data" size="30"><br/>
+            最喜欢的课程：<br/>
+            <input type="radio" name="course" value="程序设计">程序设计
+            <input type="radio" name="course" value="数据库">数据库
+            <input type="radio" name="course" value="网页设计">网页设计
+            <br/>
+            <input type="radio" name="course" value="编译原理">编译原理
+            <input type="radio" name="course" value="算法">算法
+            <input type="radio" name="course" value="数据结构">数据结构
+            <br/>
+            最喜欢的课程，可以有多个：<br/>
+            <input type="checkbox" name="manyCourse" value="程序设计">程序设计
+            <input type="checkbox" name="manyCourse" value="数据库">数据库
+            <input type="checkbox" name="manyCourse" value="网页设计">网页设计
+            <br/>
+            <input type="checkbox" name="manyCourse" value="编译原理">编译原理
+            <input type="checkbox" name="manyCourse" value="算法">算法
+            <input type="checkbox" name="manyCourse" value="数据结构">数据结构
+            <br/>
+            最喜欢的课程：<br/>
+            <select name="selectCourse">
+                <option value="程序设计">程序设计</option>
+                <option value="数据库">数据库</option>
+                <option value="网页设计">网页设计</option>
+                <option value="编译原理">编译原理</option>
+                <option value="算法">算法</option>
+                <option value="数据结构">数据结构</option>
+            </select>
+            <br/>
+            最喜欢的课程：<br/>
+            <select name="selectCourse2" size="6">
+                <option value="程序设计">程序设计</option>
+                <option value="数据库">数据库</option>
+                <option value="网页设计">网页设计</option>
+                <option value="编译原理">编译原理</option>
+                <option value="算法">算法</option>
+                <option value="数据结构">数据结构</option>
+            </select>
+            <br/>
+            最喜欢的课程：<br/>
+            <select name="selectCourse3" size="6" multiple>
+                <option value="程序设计">程序设计</option>
+                <option value="数据库">数据库</option>
+                <option value="网页设计">网页设计</option>
+                <option value="编译原理">编译原理</option>
+                <option value="算法">算法</option>
+                <option value="数据结构">数据结构</option>
+            </select>
+            <br/>
+
+            <input type="submit" value="发送">
+            <input type="reset" value="取消">
+        </p>
+    </form>
+</body>
+</html>
